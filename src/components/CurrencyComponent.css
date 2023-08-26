@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(191, 191, 196);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.money-img{
+  width: 450px;
+}
+.equal{
+  font-weight: bold;
+  font-size: 40px;
+}
+.currency{
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency select{
+  padding: 10px 15px 10px 15px;
+  border: 1px solid green;
+  font-size: 25px;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  appearance: none;
+  text-align: center;
+}
+
+.currency input{
+  padding: 10px 5px 10px 5px;
+  font-size: 25px;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: right;
+  border: 1px solid green;
+  width: 30%;
+}
+
+select:focus,input:focus{
+  outline:none;
+}
